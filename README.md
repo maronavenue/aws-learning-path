@@ -43,7 +43,7 @@ The consolidated contents are comprised of both free and paid services that were
 * [AWS Certified Developer - Associate 2020 (PASS THE EXAM!)](https://www.youtube.com/watch?v=RrKRN9zRBWs) :free: :star:
    * **Type:** Youtube course
    * **From:** Andrew Brown
-   * **From:** hands-ons are very developer-centric, good exposure to CLI, great explanations on concepts such as blue-green deployment, etc
+   * **From:** hands-ons are very developer-centric, good exposure to CLI, great explanations on concepts such as blue-green deployment, etc, no ads (respect)
 * [AWS Certified Developer - Associate - June 2018 Exam](https://ankiweb.net/shared/info/987881326) :free:
    * **Type:** Anki deck
    * **From:** Anki community (Anon)
