@@ -48,6 +48,10 @@ The consolidated contents are comprised of both free and paid services that were
    * **Type:** Anki deck
    * **From:** Anki community (Anon)
    * **Notes:** latest and best there is, cards are written in personal note-taking format but still helps for supplementary learning
+* [AWS Certified Developer – Associate (DVA-C01)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
+   * **Type:** PluralSight Skills Path (subscription)
+   * **From:** Ryan Lewis
+   * **Notes:** great topic groups, keen exposure to services, thorough & accurate
 
 ### AWS Certified Solutions Architect Associate
 * [AWS Certified Solutions Architect Associate 2020](https://ankiweb.net/shared/info/1180773976) :free: :star:
