@@ -6,17 +6,38 @@ An open collaboration by `maronavenue` and `rhobinjay` (and many more to come) f
 * [rhobinjay](https://github.com/rhobinjay)
 
 ## AWS Certified Cloud Practitioner
-* \[NEW\] AWS Certified Cloud Practitioner Exam Training 2020 by Neal Davis (Udemy course) - https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/ :dollar: :star:
-* AWS Certified Cloud Practitioner Training 2020 - Full Course by Andrew Brown (Youtube course) - https://www.youtube.com/watch?v=3hLmDS179YE :free: :star:
+* [\[NEW\] AWS Certified Cloud Practitioner Exam Training 2020](https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/) :dollar: :star:
+  * **Type:** Udemy course
+  * **From:** Neal Davis
+  * **Notes:** actively updated with no extra fees, thorough & accurate, comes with rich post-course downloadable materials
+* [AWS Certified Cloud Practitioner Training 2020 - Full Course](https://www.youtube.com/watch?v=3hLmDS179YE) :free: :star:
+   * **Type:** Youtube course
+   * **From:** Andrew Brown
+   * **Notes:** condensed but well-presented, covers key details for the exam, no ads (respect)
 
 ## AWS Certified Developer Associate
-*  Ultimate AWS Certified Developer Associate 2020 - NEW! by Stephane Maarek (Udemy course) - https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/ :dollar: :star:
-* AWS Certified Developer Associate Practice Exams by Jon Bonso (Udemy course) - https://www.udemy.com/course/aws-certified-developer-associate-practice-exams-amazon/ :dollar: :star:
-* AWS Certified Developer - Associate 2020 (PASS THE EXAM!) by Andrew Brown - https://www.youtube.com/watch?v=RrKRN9zRBWs :free: :star:
+* [Ultimate AWS Certified Developer Associate 2020 - NEW!](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/) :dollar: :star:
+   * **Type:** Udemy course
+   * **From:** Stephane Maarek
+   * **Notes:** well-crafted hands-ons interconnecting to succeeding topics, great sequence (IAAS -> PAAS -> Serverless -> IAC)
+* [AWS Certified Developer Associate Practice Exams](https://www.udemy.com/course/aws-certified-developer-associate-practice-exams-amazon/) :dollar: :star:
+   * **Type:** Practice Exam
+   * **From:** Jon Bonso
+   * **Notes:** challenging, comprehensive, really reinforces the core domains to close the gaps, best exam simulation
+* [AWS Certified Developer - Associate 2020 (PASS THE EXAM!)](https://www.youtube.com/watch?v=RrKRN9zRBWs) :free: :star:
+   * **Type:** Youtube course
+   * **From:** Andrew Brown
+   * **From:** hands-ons are very developer-centric, good exposure to CLI, great explanations on concepts such as blue-green deployment, etc
 * AWS Certified Developer - Associate - June 2018 Exam (Anki deck) - https://ankiweb.net/shared/info/987881326 :free:
+   * **Type:** Anki deck
+   * **From:** Anki community (Anon)
+   * **Notes:** latest and best there is, cards are written in personal note-taking format but still helps for supplementary learning
 
 ## AWS Certified Solutions Architect Associate
-* AWS Certified Solutions Architect Associate 2020 (Anki deck) - https://ankiweb.net/shared/info/1180773976 :free:
+* AWS Certified Solutions Architect Associate 2020 (Anki deck) - https://ankiweb.net/shared/info/1180773976 :free: :star:
+   * **Type:** Anki deck
+   * **From:** Anki community (Anon)
+   * **Notes:** latest (based on latest revision) and best rated across shared decks for this course
 
 ## Last Revision
-10/4/2020
+10/5/2020
