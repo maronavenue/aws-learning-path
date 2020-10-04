@@ -28,13 +28,13 @@ An open collaboration by `maronavenue` and `rhobinjay` (and many more to come) f
    * **Type:** Youtube course
    * **From:** Andrew Brown
    * **From:** hands-ons are very developer-centric, good exposure to CLI, great explanations on concepts such as blue-green deployment, etc
-* AWS Certified Developer - Associate - June 2018 Exam (Anki deck) - https://ankiweb.net/shared/info/987881326 :free:
+* [AWS Certified Developer - Associate - June 2018 Exam](https://ankiweb.net/shared/info/987881326) :free:
    * **Type:** Anki deck
    * **From:** Anki community (Anon)
    * **Notes:** latest and best there is, cards are written in personal note-taking format but still helps for supplementary learning
 
 ## AWS Certified Solutions Architect Associate
-* AWS Certified Solutions Architect Associate 2020 (Anki deck) - https://ankiweb.net/shared/info/1180773976 :free: :star:
+* [AWS Certified Solutions Architect Associate 2020](https://ankiweb.net/shared/info/1180773976) :free: :star:
    * **Type:** Anki deck
    * **From:** Anki community (Anon)
    * **Notes:** latest (based on latest revision) and best rated across shared decks for this course
