@@ -1,11 +1,24 @@
-# Welcome to the AWS Learning Path
+## Welcome to the AWS Learning Path
 An open collaboration by `maronavenue` and `rhobinjay` (and many more to come) for consolidated learning resources and materials to obtain AWS Associate-level certifications and/or simply dive right into AWS and Cloud computing. :smirk:
 
-# Main Collaborators
+### Main Collaborators (last revision: 10/5/2020)
 * [maronavenue](https://github.com/maronavenue)
 * [rhobinjay](https://github.com/rhobinjay)
 
-## AWS Certified Cloud Practitioner
+### Preamble
+The consolidated contents are comprised of both free and paid services that were fully consumed by the collaborators. In this way, we ensure that we provide an accurate description of our various takes on the materials in respect to our common goals. Custom-made materials and notes from everyone that will help setup a particular service/scenario, or simplify a concept are cordially accepted. They should be locally linked from the main page to dedicated subfolders. For example, test dataset with commands to generate and populate a DynamoDB table. We shall label it as `Native`:house: and also recognize the contributor who made all the efforts.
+
+|Legend|Label|
+|---|---|
+|:free:|Free|
+|:dollar:|Paid|
+|:star:|Highly recommended|
+|:house:|Native|
+
+### :construction: Upcoming :construction:
+* More e
+
+### AWS Certified Cloud Practitioner
 * [\[NEW\] AWS Certified Cloud Practitioner Exam Training 2020](https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/) :dollar: :star:
   * **Type:** Udemy course
   * **From:** Neal Davis
@@ -15,7 +28,7 @@ An open collaboration by `maronavenue` and `rhobinjay` (and many more to come) f
    * **From:** Andrew Brown
    * **Notes:** condensed but well-presented, covers key details for the exam, no ads (respect)
 
-## AWS Certified Developer Associate
+### AWS Certified Developer Associate
 * [Ultimate AWS Certified Developer Associate 2020 - NEW!](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/) :dollar: :star:
    * **Type:** Udemy course
    * **From:** Stephane Maarek
@@ -33,11 +46,8 @@ An open collaboration by `maronavenue` and `rhobinjay` (and many more to come) f
    * **From:** Anki community (Anon)
    * **Notes:** latest and best there is, cards are written in personal note-taking format but still helps for supplementary learning
 
-## AWS Certified Solutions Architect Associate
+### AWS Certified Solutions Architect Associate
 * [AWS Certified Solutions Architect Associate 2020](https://ankiweb.net/shared/info/1180773976) :free: :star:
    * **Type:** Anki deck
    * **From:** Anki community (Anon)
    * **Notes:** latest (based on latest revision) and best rated across shared decks for this course
-
-## Last Revision
-10/5/2020
