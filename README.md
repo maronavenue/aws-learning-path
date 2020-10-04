@@ -1,4 +1,4 @@
-## Welcome to the AWS Learning Path
+## Welcome to the AWS Learning Path :cloud:
 An open collaboration by `maronavenue` and `rhobinjay` (and many more to come) for consolidated learning resources and materials to obtain AWS Associate-level certifications and/or simply dive right into AWS and Cloud computing. :smirk:
 
 ### Main Collaborators (last revision: 10/5/2020)
@@ -16,7 +16,10 @@ The consolidated contents are comprised of both free and paid services that were
 |:house:|Native|
 
 ### :construction: Upcoming :construction:
-* More e
+* Add actual existing materials used for `SAA-C02` journey
+* Add AWS formal whitepapers
+* Share standalone training materials especially for Databases
+* Share Docker images
 
 ### AWS Certified Cloud Practitioner
 * [\[NEW\] AWS Certified Cloud Practitioner Exam Training 2020](https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/) :dollar: :star:
