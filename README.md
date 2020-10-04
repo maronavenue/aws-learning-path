@@ -16,10 +16,10 @@ The consolidated contents are comprised of both free and paid services that were
 |:house:|Native|
 
 ### :construction: Upcoming :construction:
-* Add actual existing materials used for `SAA-C02` journey
-* Add AWS formal whitepapers
-* Share standalone training materials especially for Databases
-* Share Docker images
+* *Add actual existing materials used for `SAA-C02` journey*
+* *Add AWS formal whitepapers*
+* *Share standalone training materials especially for Databases*
+* *Share Docker images*
 
 ### AWS Certified Cloud Practitioner
 * [\[NEW\] AWS Certified Cloud Practitioner Exam Training 2020](https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/) :dollar: :star:
