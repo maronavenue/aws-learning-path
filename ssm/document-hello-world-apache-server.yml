@@ -1,0 +1,18 @@
+---
+schemaVersion: '2.2'
+description: Basic bootstrap for Simple Apache web server (Reminder: Allow HTTP inbound on your SG)
+parameters: 
+  Message:
+    type: "String"
+    description: "Simple message to flush into index.html"
+    default: "Hello World"
+mainSteps:
+- action: aws:runShellScript
+  name: configureApache
+  inputs:
+    runCommand:
+    - 'sudo yum update -y'
+    - 'sudo yum install -y httpd'
+    - 'sudo systemctl start httpd.service'
+    - 'sudo systemctl enable httpd.service'
+    - 'echo "{{Message}} from $(hostname -f)" > /var/www/html/index.html'
