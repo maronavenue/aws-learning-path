@@ -18,6 +18,7 @@ The consolidated contents are comprised of both free and paid services that were
 ### Fresh updates (last revision: 11/15/2020)
 * Added sample working script to showcase S3 Event Notification feature (via SQS message polling)
 * Added initial materials in preparation for SOA-C01
+* Added sample SSM document (YAML format) for Apache web server basic bootstrap
 
 ### :construction: Upcoming :construction:
 * *Add actual existing materials used for `SAA-C02` journey*
@@ -25,6 +26,8 @@ The consolidated contents are comprised of both free and paid services that were
 * *Share standalone training materials especially for Databases*
 * *Share Docker images*
 * *Add keynotes on SOA-C01 practice exams from Jon Bonso on Udemy*
+
+## Curated Materials
 
 ### AWS Certified Cloud Practitioner
 * [\[NEW\] AWS Certified Cloud Practitioner Exam Training 2020](https://www.udemy.com/course/aws-certified-cloud-practitioner-training-course/) :dollar: :star:
