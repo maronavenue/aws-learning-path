@@ -5,6 +5,7 @@ print("SSM Parameter Store Demo using Python SDK")
 
 # TODO: Configure IAM role from basic Lambda execution to add read-only access to SSM
 def lambda_handler(event, context):
+    '''Gist: https://gist.github.com/maronavenue/b8a7629f27c8896fef141ca5a6e730b7'''
 
     ssm = boto3.client("ssm")
 
