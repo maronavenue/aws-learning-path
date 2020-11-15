@@ -15,10 +15,11 @@ The consolidated contents are comprised of both free and paid services that were
 * [maronavenue](https://github.com/maronavenue)
 * [rhobinjay](https://github.com/rhobinjay)
 
-### Fresh updates (last revision: 11/15/2020)
-* Added sample working script to showcase S3 Event Notification feature (via SQS message polling)
-* Added initial materials in preparation for SOA-C01
-* Added sample SSM document (YAML format) for Apache web server basic bootstrap
+### Fresh updates (last revision: 11/16/2020)
+* *Added sample working script to showcase `S3 Event Notification` feature (via `SQS` message polling)*
+* *Added initial materials in preparation for `SOA-C01`*
+* *Added sample `SSM document` (YAML format) for Apache web server basic bootstrap*
+* *Added sample `Lambda python code` for `SSM Parameter Store` Demo using SDK (boto3)*
 
 ### :construction: Upcoming :construction:
 * *Add actual existing materials used for `SAA-C02` journey*
