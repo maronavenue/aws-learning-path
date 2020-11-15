@@ -20,6 +20,7 @@ The consolidated contents are comprised of both free and paid services that were
 * *Added initial materials in preparation for `SOA-C01`*
 * *Added sample `SSM document` (YAML format) for Apache web server basic bootstrap*
 * *Added sample `Lambda python code` for `SSM Parameter Store` Demo using SDK (boto3)*
+* *Added sample bash script to deploy a simple web server via `EC2 User Data` (apache)*
 
 ### :construction: Upcoming :construction:
 * *Add actual existing materials used for `SAA-C02` journey*
