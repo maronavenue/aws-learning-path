@@ -15,12 +15,15 @@ The consolidated contents are comprised of both free and paid services that were
 * [maronavenue](https://github.com/maronavenue)
 * [rhobinjay](https://github.com/rhobinjay)
 
-### Fresh updates (last revision: 11/16/2020)
+### Fresh updates (last revision: 11/23/2020)
 * *Added sample working script to showcase `S3 Event Notification` feature (via `SQS` message polling)*
 * *Added initial materials in preparation for `SOA-C01`*
 * *Added sample `SSM document` (YAML format) for Apache web server basic bootstrap*
 * *Added sample `Lambda python code` for `SSM Parameter Store` Demo using SDK (boto3)*
 * *Added sample bash script to deploy a simple web server via `EC2 User Data` (apache)*
+* *Added Dockerfile for building a wrapper container for `awsping` to enable running it without installation*
+* *Kicked off barebones `Elastic Beanstalk` sample app with index home page (to be continued)*
+* *Added new sections for **Getting Started** and **Useful Tips and Links***
 
 ### :construction: Upcoming :construction:
 * *Add actual existing materials used for `SAA-C02` journey*
@@ -82,9 +85,10 @@ The consolidated contents are comprised of both free and paid services that were
 ## Getting Started on AWS
 
 ### Which region should I use?
-There are plenty of available tools online that determines the best region in terms of common factors such as Geolocation, HTTP pings, TCP pings, etc. I've curated some of the tools that I found useful when I was starting out.
+There are plenty of available tools online that can determine the best region in terms of common factors such as Geolocation, HTTP pings, TCP pings, etc relative to the AWS user. I've curated some of the tools that I found useful when I was starting out.
 1. [awsping](https://github.com/ekalinin/awsping) - A CLI command that checks for the latency based on HTTP or TCP. It can even average the pings based on repeats. Don't have the right environment or configuration? Feel free to pull this Docker container to run the command without installing anything: [maronavenue/awsping](https://hub.docker.com/r/maronavenue/awsping)
 ```bash
+$ docker pull maronavenue/awsping
 $ docker run -it --rm maronavenue/awsping:full http -repeats 10
       Region                                      Latency
     0 Asia Pacific (Singapore)                   66.18 ms
@@ -104,6 +108,8 @@ $ docker run -it --rm maronavenue/awsping:full http -repeats 10
 3. [AWS latency test](https://ping.psa.fun/) - A 100% serverless solution that calculates time needed to load a resource from a health page of a particular AWS service that is accessible across all regions such as `Amazon DynamoDB`. Also provides visual reports on top of the latency test.
 
 4. [EC2 Reachability Test](https://ec2-reachability.amazonaws.com/) - Amazon Web Services EC2 Reachability and Connectivity Test.
+
+5. [AWS Regional Data Centers mapping](http://turnkeylinux.github.io/aws-datacenters/) - A visual mapping of direct connection lines across AWS Global presence provided by [TurnKey Hub](https://github.com/turnkeylinux/aws-datacenters). I haven't verified if it's up-to-date, so I'm putting it in the last for now.
 
 ## Useful Tips and Links
   * [http://checkip.amazonaws.com/](http://checkip.amazonaws.com/) - Use to quickly fetch your Public IPv4 address over HTTP
