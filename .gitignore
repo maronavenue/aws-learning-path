@@ -1,0 +1,2 @@
+# Ignore NodeJS modules for the meantime to keep it lightweight
+node_modules/
