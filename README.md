@@ -78,3 +78,33 @@ The consolidated contents are comprised of both free and paid services that were
    * **Type:** Practice Exams
    * **From:** Jon Bonso
    * **Notes:** TBA once taken
+
+## Getting Started on AWS
+
+### Which region should I use?
+There are plenty of available tools online that determines the best region in terms of common factors such as Geolocation, HTTP pings, TCP pings, etc. I've curated some of the tools that I found useful when I was starting out.
+1. [awsping](https://github.com/ekalinin/awsping) - A CLI command that checks for the latency based on HTTP or TCP. It can even average the pings based on repeats. Don't have the right environment or configuration? Feel free to pull this Docker container to run the command without installing anything: [maronavenue/awsping](https://hub.docker.com/r/maronavenue/awsping)
+```bash
+$ docker run -it --rm maronavenue/awsping:full http -repeats 10
+      Region                                      Latency
+    0 Asia Pacific (Singapore)                   66.18 ms
+    1 Asia Pacific (Mumbai)                     127.90 ms
+    2 Asia Pacific (Tokyo)                      129.39 ms
+    3 Asia Pacific (Seoul)                      132.51 ms
+    4 Asia Pacific (Sydney)                     164.30 ms
+    5 US-West (California)                      174.12 ms
+    6 US-West (Oregon)                          181.24 ms
+    7 Europe (Frankfurt)                        211.99 ms
+    8 US-East (Virginia)                        229.82 ms
+    9 Europe (Ireland)                          253.35 ms
+   10 South America (São Paulo)                 361.74 ms
+```
+2. [CloudPing.info](https://www.cloudping.info/) - A browser-based tool that also estimates latency across all regions based on HTTP.
+
+3. [AWS latency test](https://ping.psa.fun/) - A 100% serverless solution that calculates time needed to load a resource from a health page of a particular AWS service that is accessible across all regions such as `Amazon DynamoDB`. Also provides visual reports on top of the latency test.
+
+4. [EC2 Reachability Test](https://ec2-reachability.amazonaws.com/) - Amazon Web Services EC2 Reachability and Connectivity Test.
+
+## Useful Tips and Links
+  * [http://checkip.amazonaws.com/](http://checkip.amazonaws.com/) - Use to quickly fetch your Public IPv4 address over HTTP
+  * [https://www.ec2instances.info/](https://www.ec2instances.info/) - Use to list the statline across all EC2 instance types including pricing
