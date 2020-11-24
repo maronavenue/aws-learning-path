@@ -90,8 +90,8 @@ The consolidated contents are comprised of both free and paid services that were
      * Results will be provided after the test with a high level summary to different knowledge areas
      * All choices are thoroughly explained why it is correct and why not.
      * Expect mental stress and work-out when decided to do the practice test.
-     * At least prepare 2 weeks to complete all tests with understanding of correct and incorrect answers from the question.
-     * Recommended to finish first the lecture and have a foundation knowledge before moving into tests. And go back to the lecture when having uncertainties.
+     * Prepare around 2 weeks to complete all tests with the understanding of correct and incorrect answers from the question.
+     * Recommends finishing first the lecture and have a foundation knowledge before moving into tests. And go back to the lecture when having uncertainties.
 
 ### AWS Certified Sysops Administrator - Associate
 * [Ultimate AWS Certified SysOps Administrator Associate 2020](https://www.udemy.com/course/ultimate-aws-certified-sysops-administrator-associate/) :dollar: :star:
