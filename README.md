@@ -71,6 +71,27 @@ The consolidated contents are comprised of both free and paid services that were
    * **Type:** Anki deck
    * **From:** Anki community (Anon)
    * **Notes:** latest (based on latest revision) and best rated across shared decks for this course
+* [Ultimate AWS Certified Solutions Architect Associate 2020](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) :dollar: :star:
+   * **Type:** Udemy course
+   * **From:** Stephane Maarek
+   * **Notes:**
+     * First few courses started with general knowledge about AWS before jumping into architectural concepts. Really helpful to try looking for unfamiliar technical words online before continuing the lecture
+     * Important things are well highlighted and it even mentioned on other lectures which I find it easy to remember
+     * Includes a summary of a topic in the end to see the concept in a bigger picture and it highlights what needs to remember first before understanding the details.
+     * Ideas and designs are well illustrated as the diagrams are easily understandable
+     * Questions posted on the community are not answered right away but it took within the day for some at least. Although in Udemy, you can search for the question first before posting one.
+     * Pronunciation is sometimes unclear and there are sudden cuts to only few of the lectures. Subtitles are recommended.
+* [AWS Certified Solutions Architect Associate Practice Exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests-k/) :dollar: :star:
+   * **Type:** Udemy course
+   * **From:** Neal Davis
+   * **Notes:**
+     * Contains 6 sets of test with 65 questions each, multiple choice and multiple answer. Then each test has 120mins time to finish. This is to simulate the real certification test.
+     * Quality of questions are great and almost give you the same feeling when doing actual cert exam
+     * Results will be provided after the test with a high level summary to different knowledge areas
+     * All choices are thoroughly explained why it is correct and why not.
+     * Expect mental stress and work-out when decided to do the practice test.
+     * At least prepare 2 weeks to complete all tests with understanding of correct and incorrect answers from the question.
+     * Recommended to finish first the lecture and have a foundation knowledge before moving into tests. And go back to the lecture when having uncertainties.
 
 ### AWS Certified Sysops Administrator - Associate
 * [Ultimate AWS Certified SysOps Administrator Associate 2020](https://www.udemy.com/course/ultimate-aws-certified-sysops-administrator-associate/) :dollar: :star:
