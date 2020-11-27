@@ -3,16 +3,17 @@ html, body {
   padding: 0px;
   margin: 0px;
   font-family: Arial;
-  background: #e7f9ff;
+  background: rgb(220, 220, 220);
 }
 
 h1 {
   margin: 0;
   padding: 12px 0;
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 500;
-  color: rgba(0,0,0,0.5);
+  color: rgb(35, 47, 60);
+  font-family: Helvetica;
 }
 
 h2 {
@@ -61,12 +62,12 @@ article {
 }
 .choice:hover { border: solid 1px rgb(100,100,100); }
 .choice:hover .l{ background: rgb(100,100,100); }
-.choice.active { border: solid 1px #a765ff; }
-.choice.active .l{ background: #a765ff; }
+.choice.active { border: solid 1px rgb(35, 47, 60); }
+.choice.active .l{ background: rgb(253, 152, 49); }
 
 .submit { text-align: center }
 .submit button {
-  background: #a765ff;
+  background: rgb(35, 47, 60);
   color: #fff;
   border: none;
   padding: 12px 32px;
@@ -75,5 +76,5 @@ article {
   cursor: pointer;
 }
 .submit button:hover {
-  background: #984aff;
+  background: rgb(59, 76, 89);
 }
