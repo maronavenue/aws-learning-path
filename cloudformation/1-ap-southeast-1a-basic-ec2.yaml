@@ -1,0 +1,8 @@
+Description: This template will launch a barebones EC2 instance of t2.micro in Singapore region.
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: ap-southeast-1a
+      ImageId: ami-0d728fd4e52be968f
+      InstanceType: t2.micro

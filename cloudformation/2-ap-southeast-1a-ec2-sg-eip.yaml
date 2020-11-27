@@ -1,0 +1,53 @@
+Description: This template will add HTTP and SSH Security Groups then attach an Elastic IP as well.
+
+Parameters:
+  IngressIP:
+    Description: Your IP address in 0.0.0.0/32 format to allow inbound connection into instance.
+    Type: String
+  HTTPSecurityGroupDescription: 
+    Description: Your SG description for HTTP goes here...
+    Type: String
+  SSHSecurityGroupDescription:
+    Description: Your SG description for SSH goes here...
+    Type: String
+
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: ap-southeast-1a
+      ImageId: ami-0d728fd4e52be968f
+      InstanceType: t2.micro
+      SecurityGroups:
+        - !Ref HTTPSecurityGroup
+        - !Ref SSHSecurityGroup
+
+  MyEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !Ref MyInstance
+
+  HTTPSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: !Ref HTTPSecurityGroupDescription
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: !Ref IngressIP
+
+  SSHSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: !Ref SSHSecurityGroupDescription
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: !Ref IngressIP
+
+Outputs:
+  ElasticIP:
+    Description: Newly assigned Elastic IP
+    Value: !Ref MyEIP
