@@ -1,0 +1,3 @@
+[submodule "elastic-beanstalk-sample-app"]
+	path = elastic-beanstalk-sample-app
+	url = https://github.com/maronavenue/elastic-beanstalk-sample-app
