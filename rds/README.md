@@ -4,7 +4,7 @@
 
 ## Prologue
 This quick guide aims to bootstrap your familiarity with **Amazon RDS** by providing a fully-functional yet simple schema with initial dataset that you can extend further upon working your instances. Who knows, you might want to do the ff:
-  1. Add more mock data on top and reuse the existing `SELECT` statement designed for a simple real life use case to **evaluate DB performance**.
+  1. Add more data on top and reuse the existing `SELECT` statement designed for a simple real life use case to **evaluate DB performance**.
   1. Implement a `CRUD model` and front-end to essentially **build your very own standard three-tier architecture app**.
   1. **Analyze performance from heavy I/O operations** via `CloudWatch`, `Enhanced Monitoring`, and `Performance Insights`. 
 
@@ -57,11 +57,12 @@ Initializing your DB is as easy as running the ff. SQL scripts:
   1. `./book_reviews_db_ddl.sql` - Run this script to create the exact tables defined in the diagrams above.
   1. `./book_reviews_dd_data.sql` - Run this script to populate the entire database with initial dataset.
   1. `./book_reviews_dd_select.sql` - Run this script to query some information:
-    * The 1st snippet shows all the books and their information:
+
+    A. The 1st snippet shows all the books and their information:
 
     ![Book Review DB book information](./images/book-reviews-db-show-book-info.png)
 
-    * The 2nd snippet shows the book reviews made by some user/s:
+    A. The 2nd snippet shows the book reviews made by some user/s:
 
     ![Book Review DB book reviews](./images/book-reviews-db-show-book-reviews.png)
 
