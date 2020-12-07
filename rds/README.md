@@ -58,11 +58,11 @@ Initializing your DB is as easy as running the ff. SQL scripts:
   1. `./book_reviews_dd_data.sql` - Run this script to populate the entire database with initial dataset.
   1. `./book_reviews_dd_select.sql` - Run this script to query some information:
 
-    A. The 1st snippet shows all the books and their information:
+    1. The 1st snippet shows all the books and their information:
 
     ![Book Review DB book information](./images/book-reviews-db-show-book-info.png)
 
-    A. The 2nd snippet shows the book reviews made by some user/s:
+    1. The 2nd snippet shows the book reviews made by some user/s:
 
     ![Book Review DB book reviews](./images/book-reviews-db-show-book-reviews.png)
 
