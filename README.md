@@ -15,7 +15,7 @@ The consolidated contents are comprised of both free and paid services that were
 * [maronavenue](https://github.com/maronavenue)
 * [rhobinjay](https://github.com/rhobinjay)
 
-### Fresh updates (last revision: 11/28/2020)
+### Fresh updates (last revision: 12/8/2020)
 * *Added sample working script to showcase `S3 Event Notification` feature (via `SQS` message polling)*
 * *Added initial materials in preparation for `SOA-C01`*
 * *Added sample `SSM document` (YAML format) for Apache web server basic bootstrap*
@@ -26,6 +26,7 @@ The consolidated contents are comprised of both free and paid services that were
 * *Added new sections for **Getting Started** and **Useful Tips and Links***
 * *Added SAA-C02 curated materials with keynotes from `rhobinjay` :fire:*
 * *Finalized simple Node web app to demonstrate `Elastic Beanstalk` :leaf:*
+* *Added `Amazon RDS` SQL scripts to initialize a fully-functional database with initial dataset (`Book Review database`)*
 
 ### :construction: Upcoming :construction:
 * *Add actual existing materials used for `SAA-C02` journey*

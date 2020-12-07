@@ -45,6 +45,9 @@ This was generated automatically using **DBeaver** and provides a more verbose l
   * If you're curious, it's using **`IDEF1X` data modeling method**. You can check this [cheatsheet](http://www.32geeks.com/classes/resources/IDEF1X_Cheat_Sheet.pdf).
 
 ## Let's get started
+There are obviously some other details about our database that we'll be skipping such as **rating must be 1 to 5** or **on update/delete cascades** for the `FOREIGN KEYS`; those are beyond this tutorial but the point is you can extend this schema to test build an app if you wish to.
+
+In any case, time to build our **RDS database**. :hammer_and_wrench:
 
 ### Step 1. Create your Postgres DB on RDS
 Specific instructions to follow. :mask:
@@ -65,4 +68,4 @@ Initializing your DB is as easy as running the ff. SQL scripts:
 ![Book Review DB book reviews](./images/book-reviews-db-show-book-reviews.png)
 
 ## Acknowledgements
-The technical books used in the initial dataset were based from recommendations by a colleague during a timely catchup. Thanks, `Nes`! :fire:
+Most technical books used in the initial dataset were based from recommendations by a colleague during a timely catchup. Thanks, `Nes`! :fire:
