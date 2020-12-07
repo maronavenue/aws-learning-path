@@ -56,15 +56,13 @@ Specific instructions to follow. :mask:
 Initializing your DB is as easy as running the ff. SQL scripts:
   1. `./book_reviews_db_ddl.sql` - Run this script to create the exact tables defined in the diagrams above.
   1. `./book_reviews_dd_data.sql` - Run this script to populate the entire database with initial dataset.
-  1. `./book_reviews_dd_select.sql` - Run this script to query some information:
+  1. `./book_reviews_dd_select.sql` - Run this script to query some information about the books and some reviews.
 
-    1. The 1st snippet shows all the books and their information:
+#### Show list of all books with complete information
+![Book Review DB book information](./images/book-reviews-db-show-book-info.png)
 
-    ![Book Review DB book information](./images/book-reviews-db-show-book-info.png)
-
-    1. The 2nd snippet shows the book reviews made by some user/s:
-
-    ![Book Review DB book reviews](./images/book-reviews-db-show-book-reviews.png)
+#### Show all book reviews made by users
+![Book Review DB book reviews](./images/book-reviews-db-show-book-reviews.png)
 
 ## Acknowledgements
 The technical books used in the initial dataset were based from recommendations by a colleague during a timely catchup. Thanks, `Nes`! :fire:
